@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/beer-inventory-service/beer-inventory-service.iml" filepath="$PROJECT_DIR$/beer-inventory-service/beer-inventory-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/beer-order-service/beer-order-service.iml" filepath="$PROJECT_DIR$/beer-order-service/beer-order-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/beer-service/beer-service.iml" filepath="$PROJECT_DIR$/beer-service/beer-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/maven-bom/maven-bom.iml" filepath="$PROJECT_DIR$/maven-bom/maven-bom.iml" />
+    </modules>
+  </component>
+</project>
