@@ -1,9 +1,0 @@
-[source,http,options="nowrap"]
-----
-POST /api/v1/beer/ HTTP/1.1
-Content-Type: application/json;charset=UTF-8
-Content-Length: 160
-Host: dev.ayers.co:9000
-
-{"id":null,"version":null,"createdDate":null,"updatedDate":null,"beerName":"Mango Bobs","beerStyle":"IPA","upc":"337010000001","price":"12.95","minOnHand":null}
-----

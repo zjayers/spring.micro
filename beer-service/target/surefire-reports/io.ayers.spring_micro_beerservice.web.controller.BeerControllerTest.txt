@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: io.ayers.spring_micro_beerservice.web.controller.BeerControllerTest
--------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.611 s - in io.ayers.spring_micro_beerservice.web.controller.BeerControllerTest

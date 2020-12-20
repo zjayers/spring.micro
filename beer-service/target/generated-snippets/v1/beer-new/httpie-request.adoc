@@ -1,5 +1,0 @@
-[source,bash]
-----
-$ echo '{"id":null,"version":null,"createdDate":null,"updatedDate":null,"beerName":"Mango Bobs","beerStyle":"IPA","upc":"337010000001","price":"12.95","minOnHand":null}' | http POST 'https://dev.ayers.co:9000/api/v1/beer/' \
-    'Content-Type:application/json;charset=UTF-8'
-----

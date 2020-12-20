@@ -1,5 +1,0 @@
-[source,bash]
-----
-$ http GET 'https://dev.ayers.co:9000/api/v1/beer/b4e43759-ac48-471b-a205-3d27ec7b237d?isCold=yes' \
-    'Accept:application/json'
-----

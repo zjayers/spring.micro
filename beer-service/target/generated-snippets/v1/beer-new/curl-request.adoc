@@ -1,6 +1,0 @@
-[source,bash]
-----
-$ curl 'https://dev.ayers.co:9000/api/v1/beer/' -i -X POST \
-    -H 'Content-Type: application/json;charset=UTF-8' \
-    -d '{"id":null,"version":null,"createdDate":null,"updatedDate":null,"beerName":"Mango Bobs","beerStyle":"IPA","upc":"337010000001","price":"12.95","minOnHand":null}'
-----
