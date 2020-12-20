@@ -32,10 +32,10 @@ import static org.springframework.restdocs.request.RequestDocumentation.*;
 import static org.springframework.restdocs.snippet.Attributes.key;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
-@AutoConfigureRestDocs(uriScheme = "https", uriHost = "dev.ayers.co", uriPort = 9000)
-@WebMvcTest(BeerController.class)
 @AutoConfigureWebClient
+@WebMvcTest(BeerController.class)
 @ExtendWith(RestDocumentationExtension.class)
+@AutoConfigureRestDocs(uriScheme = "https", uriHost = "dev.ayers.co", uriPort = 9000)
 class BeerControllerTest {
 
     @Autowired
@@ -51,7 +51,7 @@ class BeerControllerTest {
 
     BeerDto beerDto;
     String beerDtoJson;
-    String id;
+    UUID id;
 
     @BeforeEach
     void setUp() throws JsonProcessingException {
@@ -64,14 +64,16 @@ class BeerControllerTest {
                 .build();
 
         beerDtoJson = objectMapper.writeValueAsString(beerDto);
-        id = UUID.randomUUID()
-                .toString();
 
-        given(beerService.getById(any(), false)).willReturn(beerDto);
+        id = UUID.randomUUID();
+        beerDto.setId(id);
+
+        given(beerService.getById(any(), any())).willReturn(beerDto);
     }
 
     @Test
     void getBeerById() throws Exception {
+
         mockMvc.perform(get(apiEndpoint + "{beerId}", id)
                 .param("isCold", "yes")
                 .accept(MediaType.APPLICATION_JSON))

@@ -1,0 +1,12 @@
+io/ayers/beer/inventory/service/web/mappers/DateMapper.class
+io/ayers/beer/inventory/service/domain/BaseEntity.class
+io/ayers/beer/inventory/service/BeerInventoryApplication.class
+io/ayers/beer/inventory/service/bootstrap/BeerInvntoryBootstrap.class
+io/ayers/beer/inventory/service/web/controllers/BeerInventoryController.class
+io/ayers/beer/inventory/service/web/mappers/BeerInventoryMapper.class
+io/ayers/beer/inventory/service/web/mappers/BeerInventoryMapperImpl.class
+io/ayers/beer/inventory/service/web/model/BeerInventoryDto.class
+io/ayers/beer/inventory/service/repositories/BeerInventoryRepository.class
+io/ayers/beer/inventory/service/domain/BeerInventory$BeerInventoryBuilder.class
+io/ayers/beer/inventory/service/domain/BeerInventory.class
+io/ayers/beer/inventory/service/web/model/BeerInventoryDto$BeerInventoryDtoBuilder.class

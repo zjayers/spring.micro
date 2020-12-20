@@ -1,0 +1,9 @@
+/Users/ayers/workspace/spring_micro/beer-inventory-service/src/main/java/io/ayers/beer/inventory/service/web/mappers/BeerInventoryMapper.java
+/Users/ayers/workspace/spring_micro/beer-inventory-service/src/main/java/io/ayers/beer/inventory/service/BeerInventoryApplication.java
+/Users/ayers/workspace/spring_micro/beer-inventory-service/src/main/java/io/ayers/beer/inventory/service/web/model/BeerInventoryDto.java
+/Users/ayers/workspace/spring_micro/beer-inventory-service/src/main/java/io/ayers/beer/inventory/service/domain/BeerInventory.java
+/Users/ayers/workspace/spring_micro/beer-inventory-service/src/main/java/io/ayers/beer/inventory/service/bootstrap/BeerInvntoryBootstrap.java
+/Users/ayers/workspace/spring_micro/beer-inventory-service/src/main/java/io/ayers/beer/inventory/service/web/controllers/BeerInventoryController.java
+/Users/ayers/workspace/spring_micro/beer-inventory-service/src/main/java/io/ayers/beer/inventory/service/repositories/BeerInventoryRepository.java
+/Users/ayers/workspace/spring_micro/beer-inventory-service/src/main/java/io/ayers/beer/inventory/service/domain/BaseEntity.java
+/Users/ayers/workspace/spring_micro/beer-inventory-service/src/main/java/io/ayers/beer/inventory/service/web/mappers/DateMapper.java

@@ -1,0 +1,4 @@
+[source,options="nowrap"]
+----
+{"id":"b4e43759-ac48-471b-a205-3d27ec7b237d","version":null,"createdDate":null,"updatedDate":null,"beerName":"Mango Bobs","beerStyle":"IPA","upc":"337010000001","price":"12.95","minOnHand":null}
+----

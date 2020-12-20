@@ -1,0 +1,11 @@
+{
+  "groups": [
+    {
+      "name": "io.ayers",
+      "type": "io.ayers.beer.order.service.services.beer.BeerServiceImpl",
+      "sourceType": "io.ayers.beer.order.service.services.beer.BeerServiceImpl"
+    }
+  ],
+  "properties": [],
+  "hints": []
+}

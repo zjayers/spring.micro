@@ -39,6 +39,13 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
+    <!--Modules-->
+    <modules>
+        <module>../beer-inventory-service</module>
+        <module>../beer-order-service</module>
+        <module>../beer-service</module>
+    </modules>
+
     <!--Properties-->
     <properties>
         <java.version>11</java.version>
