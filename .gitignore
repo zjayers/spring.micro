@@ -34,7 +34,6 @@ n
 *.iml
 *.ipr
 *.iws
-*.jar
 *.sw?
 *~
 .#*
