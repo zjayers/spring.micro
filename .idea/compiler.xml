@@ -16,7 +16,14 @@
         </processorPath>
         <module name="beer-inventory-service" />
         <module name="beer-order-service" />
+        <module name="order-service" />
         <module name="beer-service" />
+      </profile>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring_gateway" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -26,6 +33,8 @@
       <module name="maven-archiver" target="1.5" />
       <module name="maven-archiver (1)" target="1.5" />
       <module name="maven-bom" target="11" />
+      <module name="order-service" target="11" />
+      <module name="spring_gateway" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -33,6 +42,8 @@
       <module name="beer-inventory-service" options="-parameters -Amapstruct.defaultComponentModel=spring" />
       <module name="beer-order-service" options="-parameters -Amapstruct.defaultComponentModel=spring" />
       <module name="beer-service" options="-parameters -Amapstruct.defaultComponentModel=spring" />
+      <module name="order-service" options="-parameters -Amapstruct.defaultComponentModel=spring" />
+      <module name="spring_gateway" options="-parameters" />
     </option>
   </component>
 </project>

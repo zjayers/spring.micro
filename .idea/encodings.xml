@@ -3,11 +3,12 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/beer-inventory-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/beer-inventory-service/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/beer-order-service/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/beer-order-service/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/beer-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/beer-service/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/maven-bom/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/maven-bom/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/order-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/order-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring_gateway/src/main/java" charset="UTF-8" />
   </component>
 </project>

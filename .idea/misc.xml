@@ -12,6 +12,7 @@
         <option value="$PROJECT_DIR$/spring_micro_beer-order-service/pom.xml" />
         <option value="$PROJECT_DIR$/spring_micro_beer-service/target/maven-archiver/pom.properties" />
         <option value="$PROJECT_DIR$/spring_micro_beer-service/pom.xml" />
+        <option value="$PROJECT_DIR$/spring_gateway/pom.xml" />
       </list>
     </option>
   </component>
